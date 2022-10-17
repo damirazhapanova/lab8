@@ -13,7 +13,7 @@ let sum5 = lab5[0]+lab5[1]+lab5[2]+lab5[3]+lab5[4]+lab5[5]+lab5[6]+lab5[7]+lab5[
 let sum6 = lab6[0]+lab6[1]+lab6[2]+lab6[3]+lab6[4]+lab6[5];
 let sum7 = quiz1[0];
 let sums =[sum1, sum2, sum3, sum4, sum5, sum6, sum7]
-let total_score = (sum1+sum2+sum3+sum4+sum5+sum6)*0.6+sum7*0.4
+let total_score = [(sum1+sum2+sum3+sum4+sum5+sum6)/6]*0.4+sum7*0.4
 
 const results = {
 	lab1:[5, 5, 5, 5, 5, 0, 0, 0],
